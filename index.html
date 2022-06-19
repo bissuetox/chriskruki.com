@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Katie rocks</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-</head>
+    <head>
+        <meta charset='utf-8'>
+        <title>Katie rocks</title>
 
-<body>
-    <h1 class="thing">
-        Hello there
-    </h1>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
 
-    <button>Click me!</button>
-</body>
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body style="margin: 0px;">
+        <!-- Nav Bar -->
+        <div class="nav-bar">
+            <a class="nav-button" href="">About</a>
+            <a class="nav-button" href="">Projects</a>
+            <a class="nav-button" href="">Contact</a> 
+        </div>
+        <h1 style="text-align: center; color: white;">Hi, I'm Chris Kruki.</h1>
+        <!-- Main Area -->
+        <div id="main-area" style="text-align: center;">
+            <div>
+                <img id="test-img" src="img/koda.png">
+            </div>
+            <span>
+                <button id="switch_button" style="margin: 5px;">Click me!</button>
+                <img id="test-img" src="img/koda.png">
+            </span>
+        </div>
+        <div id="move_div">
+        </div>
+    </body>
 </html>

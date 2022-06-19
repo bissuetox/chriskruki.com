@@ -1,0 +1,37 @@
+html {
+    background-color: #414a4c;
+    font-family: 'Raleway', serif;
+}
+
+.nav-bar {
+    background-color: #232b2b;
+    text-align: right;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: black outset 2px;
+}
+
+.nav-button {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Raleway', serif;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav-button:hover {
+    color: rgb(141, 141, 141);
+}
+
+#main-area {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#test-img {
+    height: 400px;
+    width: auto;
+    border: black  2px;
+}
