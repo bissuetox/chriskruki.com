@@ -3,25 +3,29 @@ html {
     font-family: 'Raleway', serif;
 }
 
-.nav-bar {
+.top-area {
     background-color: #232b2b;
-    text-align: right;
     padding-bottom: 10px;
     padding-top: 10px;
     border-bottom: black outset 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.nav-button {
+.nav-buttons > a {
     text-decoration: none;
     font-size: 30px;
     font-weight: bolder;
     font-family: 'Raleway', serif;
     color: white;
-    padding: 5px;
     margin: 5px;
+    transition: 0.3s;
 }
 
-.nav-button:hover {
+.nav-buttons > a:hover {
     color: rgb(141, 141, 141);
 }
 
@@ -34,4 +38,16 @@ html {
     height: 400px;
     width: auto;
     border: black  2px;
+}
+
+.smooth-button {
+    background-color: lightskyblue;
+    border-color: black;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.smooth-button:hover {
+    background-color: rgb(98, 151, 184);
+    cursor: pointer;
 }
