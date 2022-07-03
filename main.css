@@ -1,5 +1,8 @@
 html {
     background-color: #414a4c;
+    background-image: "img/chris.jpeg";
+    background-size: contain;
+    background-repeat: no-repeat;
     font-family: 'Raleway', serif;
 }
 
