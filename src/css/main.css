@@ -1,8 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
     background-color: #414a4c;
-    background-image: "img/chris.jpeg";
-    background-size: contain;
-    background-repeat: no-repeat;
     font-family: 'Raleway', serif;
 }
 
@@ -32,16 +33,6 @@ html {
     color: rgb(141, 141, 141);
 }
 
-#main-area {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-#test-img {
-    height: 400px;
-    width: auto;
-    border: black  2px;
-}
 
 .smooth-button {
     background-color: lightskyblue;

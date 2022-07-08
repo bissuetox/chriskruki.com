@@ -2,4 +2,4 @@
 Portfolio Website
 
 # Dev
-Run with `node index.js`
+Run with `npm start`
