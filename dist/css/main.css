@@ -551,8 +551,31 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.nav-buttons > a {
+  position: relative;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.nav-buttons > a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
 .flex {
   display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -563,19 +586,8 @@ video {
   justify-content: space-between;
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
-.bg-gray-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+.border-2 {
+  border-width: 2px;
 }
 
 .bg-emerald-500 {
@@ -583,9 +595,8 @@ video {
   background-color: rgb(16 185 129 / var(--tw-bg-opacity));
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-5 {
@@ -593,41 +604,29 @@ video {
   padding-right: 1.25rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .align-middle {
   vertical-align: middle;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 html {
-  background-color: #414a4c;
   font-family: 'Raleway', serif;
-}
-
-.nav-buttons > a {
-  text-decoration: none;
-  font-size: 30px;
-  font-weight: bolder;
-  font-family: 'Raleway', serif;
-  color: white;
-  margin: 5px;
-  transition: 0.3s;
-}
-
-.nav-buttons > a:hover {
-  color: rgb(141, 141, 141);
-}
-
-.smooth-button {
-  background-color: lightskyblue;
-  border-color: black;
-  border-radius: 2px;
-  transition: 0.3s;
-}
-
-.smooth-button:hover {
-  background-color: rgb(98, 151, 184);
-  cursor: pointer;
 }
